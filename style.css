@@ -39,6 +39,10 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: Patate;
+  background-image: url(/24h_du_Mans/assets/images/racing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 /* A elements that don't have a class get default styles */
@@ -102,7 +106,7 @@ h1{
     text-shadow: 2px 2px 8px #000, 0 0 10px #ff0000;
   }
 }
-.contact-form{
+#contact-form{
     height: auto;
     width: 50%;
     background-image: url(/24h_du_Mans/assets/images/multipla-thomas-et-ses-amis.jpg);
@@ -113,6 +117,8 @@ h1{
     flex-direction: column;
     flex-wrap: nowrap;
    align-items: center;
+   padding: 50px;
+   gap :15px; 
 }
 nav{
     background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
