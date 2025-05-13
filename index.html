@@ -5,15 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>24h du Mans</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
+
+ <!--Formulaire selection!-->
+
+<form action="" method="
+select">
+    <label for="select">Sélectionnez une option:</label>
+    <select id="select" name="select">
+        <option value="option1">Information des options de Tarifs</option>
+        <option value="option2">Information sur le tour du Mans </option>
+        <option value="option3">Autre demande</option>
+    </select>
+
+    <!-- Formulaire de contact !-->
+
+    <div class="contact-form">
     
+        <h2>Contactez-nous</h2>
+        <form id="contactForm">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
 
+            <label for="prenon">Prenom</label>
+            <input type="text" id="prenom" name="prenom" required>
 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for=""></label>
 
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
 
-
-
-    <script src="script.js"></script>
+            <button type="submit">Envoyer</button>
+        </form>
+    
+<script>
+    Inscription();
+</script>
 </body>
 </html>
