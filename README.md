@@ -6,7 +6,7 @@
 ## CSS - branch CSS :
   - @slimabderrezak
   - @RodrigueBotte
-  - Neskiller59
+  - @Neskiller59
   - @rs459
 ## JavaScript - branch JS :
   - @maxenceFeriau01
