@@ -15,6 +15,10 @@ function Inscription() {
         alert("Veuillez remplir tous les champs.");
         return;
     }
+    if (!formData.email.includes("@")) {
+        alert("Veuillez entrer une adresse e-mail valide.");
+        return;
+    }
     if (formData.message.length < 10) {
         alert("Le message doit contenir au moins 10 caractères.");
         return;
@@ -24,9 +28,15 @@ function Inscription() {
     alert("Inscription réussie !");
 }
 
+
+
+
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault(); // Empêche le rechargement de la page
       Inscription();
+
+      document.getElementById("contact-form").reset();
+
     
 }
 );
