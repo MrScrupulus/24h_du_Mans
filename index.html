@@ -7,6 +7,144 @@
     <title>24h du Mans</title>
 </head>
 <body>
+    <nav>
+        <!-- UL = Unordered List -->
+         <ul>
+            <li><a href="#"></a>Accueil</li>
+        
+            <li><a href="#"></a>Boutique</li>
+            <li><a href="#"></a>Formulair</li>
+            
+         </ul>
+    </nav>
+    <header>
+        <!-- Un seul H1 par page -->
+    <h1>Ceci est le titre principale</h1>
+    
+    <p>
+coucou <en> Texte en italique </en> <strong>texte en gras</strong>
+
+
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus temporibus nisi iste non nemo eveniet quos quo repellendus suscipit ut corporis veritatis iure est molestiae officiis, nam nulla maiores ab!
+
+    </p>
+    </header>
+    
+
+    <main>
+<section>
+  <h2>Ordered List</h2>
+  <ol>
+    <li>Ceci est une</li>
+    <li>liste dans</li>
+    <li>a l'orddre</li>
+  </ol>
+
+</section>
+<section>
+<h3>Image en HTML</h3>
+<img src="./landman-1-1024x573.webp" height="200"alt="image-section" />
+<!-- L'alt de l'image est pour les non voyants pour l'accessibilité -->
+
+<div>
+  <h4>tableaux</h4>
+  <table border="4" cellpadding="10" cellspacing="4" 
+  style=""text-align: center >
+
+    <!-- thead est pour l'entete du tableau -->
+    <thead>
+      <tr>
+        <th>col 1</th>
+        <th>col 2</th>
+        <th>col 3</th>
+      </tr>
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+
+
+      </tr>
+      <tr>
+      <td>Cell 4</td>
+      <td>Cell 5</td>
+      <td>Cell 6</td>
+
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+<div>
+<h5>Les liens</h5>
+<!-- blank permet de creer un nouvel onglet -->
+<a href="http://htmlcheatsheet.com"target="-blank">HTML Cheat Sheet</a>
+
+
+
+</div>
+<div>
+  <h6><i>&#128679;<i> Video</i></h6>
+  <video src="./video.mp4" height="200" autoplay muted loop></video>
+</div>
+</section>
+<section>
+<h2>Les formulaire</h2>
+<form action="">
+  <!-- "for" et "id" permettent de lier le label a l'input   -->
+  <label for="name">Nom</label>
+<input type="text" id="name" placeholder="Entrez votre Nom"/>
+<br />
+
+<label for="age">Entrer votre age</label>
+<input type="number" id="age" value="18" /> 
+
+<br>
+
+<!-- input de type select -->
+ <label for="gender">Genre</label>
+ <select id="gender">
+  <option value="Home">Home</option>
+  <option value="Femme">Femme</option>
+  <option value="Autre">Autre</option>
+ </select>
+
+ <!-- Input de type radio -->
+  <div>
+    <input type="radio" name="type" id="human" checked />
+    <label for="human">humain</label>
+
+    <input type="radio" name="type" id="dog" />
+    <label for="dog">chien</label>
+
+    <input type="radio" name="type" id="cat" />
+    <label for="cat">Chat</label>
+
+
+  </div>
+ <textarea placeholder="Votre message..." cols="20"rows="5"></textarea>
+
+<!-- Input de type checkbox -->
+ <input type="checkbox" name="" id="cgv" />
+ <label for="cgv">Accepter les conditions générales</label>
+
+ <br>
+ <!-- Input de type submit permet de valider -->
+<input type="submit" value="ceci est un bouton pour valider le formulaire"/>
+<button>ceci est un bouton</button>
+</section>
+
+</form>
+
+    </main>
+
+    
+    <!-- Mail et envoi de fichiers -->
+    <footer>
+      <a href="mailto:sjt28003@gmail.com">contacter moi !</a>
+      <a href="./notice.txt"download="Notice">telecharger la notice</a>
+    </footer>
     
 
 
