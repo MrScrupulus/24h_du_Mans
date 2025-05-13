@@ -1,13 +1,13 @@
-@font-face {
-  font-family: Patate;
-  src: url(/24h_du_Mans/assets/font/FrederickatheGreat-Regular.ttf);
-}
-/* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: Patate;
+  src: url(/24h_du_Mans/assets/font/FrederickatheGreat-Regular.ttf);
+}
+/* Box sizing rules */
 /* Remove default margin */
 body,
 h1,
@@ -39,7 +39,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: Patate;
-  background-image: url(/24h_du_Mans/assets/images/racing.jpg);
+  background-image: url(assets/images/racing.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -108,7 +108,7 @@ h1 {
 #contact-form {
   height: auto;
   width: 50%;
-  background-image: url(/24h_du_Mans/assets/images/multipla-thomas-et-ses-amis.jpg);
+  background-image: url(assets/images/multipla-thomas-et-ses-amis.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 80%;
