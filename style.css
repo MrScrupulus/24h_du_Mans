@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Patate;
-    src: url(/24h_du_Mans/assets/font/FrederickatheGreat-Regular.ttf);
+  font-family: Patate;
+  src: url(/24h_du_Mans/assets/font/FrederickatheGreat-Regular.ttf);
 }
 /* Box sizing rules */
 *,
@@ -42,7 +42,7 @@ body {
   background-image: url(/24h_du_Mans/assets/images/racing.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
+  color: white;
 }
 
 /* A elements that don't have a class get default styles */
@@ -105,19 +105,19 @@ h1 {
     text-shadow: 2px 2px 8px #000, 0 0 10px #ff0000;
   }
 }
-#contact-form{
-    height: auto;
-    width: 50%;
-    background-image: url(/24h_du_Mans/assets/images/multipla-thomas-et-ses-amis.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 80%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-   align-items: center;
-   padding: 50px;
-   gap :15px; 
+#contact-form {
+  height: auto;
+  width: 50%;
+  background-image: url(/24h_du_Mans/assets/images/multipla-thomas-et-ses-amis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 50px;
+  gap: 15px;
 }
 nav {
   background: linear-gradient(
@@ -153,7 +153,6 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: rainbow 5s linear infinite;
- 
 }
 
 @keyframes rainbow {
@@ -163,4 +162,12 @@ h2 {
   100% {
     background-position: 100% 50%;
   }
+}
+body p {
+  text-align: center;
+  font-size: 1.8rem;
+  text-shadow: black 1px 1px 1px;
+}
+iframe {
+  background-color: rgba(255, 255, 255, 0.452);
 }
