@@ -35,19 +35,25 @@
  <!--Formulaire selection!-->
 
  <form id="contact-form">
-    <select id="select">
-        <option value="option1">Tarifs </option>
-        <option value="option2">BOULALALAA</option>
-        <option value="option3">OJAIJAIHAIIA</option>
-    </select>
-    <input type="text" id="name" placeholder="Nom">
-    <input type="text" id="prenom" placeholder="Prénom">
-    <input type="email" id="email" placeholder="Email">
-    <input type="message" id="message" placeholder="Message"></textarea>
-    <button type="submit">Envoyer</button>
-</form>
+        <select id="select">
+            <option value="option1">Tarifs </option>
+            <option value="option2">BOULALALAA</option>
+            <option value="option3">OJAIJAIHAIIA</option>
+        </select>
+        <input type="text" id="name" placeholder="Nom">
+        <input type="text" id="prenom" placeholder="Prénom">
+        <input type="email" id="email" placeholder="Email">
+        <textarea id="message" placeholder="Message" rows="5"></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <!-- Section pour afficher les données -->
+    <h2>Messages enregistrés</h2>
+    <div id="messages-container">
+        <!-- Les messages seront affichés ici -->
+    </div>
 </main>
 <footer></footer>
-</body>
 <script src="script.js"></script>
+</body>
 </html>
