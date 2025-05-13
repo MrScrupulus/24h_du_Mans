@@ -3,6 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+h1{
+    
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #ff0000;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 8px #000, 0 0 15px #ff0000;
+  background: linear-gradient(90deg, #ff0000, #ffff00, #ff0000);
+  animation: speed-glow 2s infinite linear;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@keyframes speed-glow {
+  0% {
+    text-shadow: 2px 2px 8px #000, 0 0 10px #ff0000;
+  }
+  50% {
+    text-shadow: 2px 2px 8px #000, 0 0 25px #ffff00;
+  }
+  100% {
+    text-shadow: 2px 2px 8px #000, 0 0 10px #ff0000;
+  }
+}
+form{
+    background-image: url(/24h_du_Mans/image/voiture.jpg);
+}
+
+input{
+    height: 30px;
+    width: 20%;
+    border-radius: 20%;
     
 }
